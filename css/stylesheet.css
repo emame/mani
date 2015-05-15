@@ -8,7 +8,7 @@ html {
 
 body {
 	width: 100%;
-	height: 98%;
+	height: 100%;
 	padding: 0;
 	margin: 0;
 }
@@ -51,12 +51,12 @@ nav ul a {
 footer {
 	width: 100%;
 	background-color: #8e617f;
-	padding-top: 5px;
-	padding-bottom: 12px;
+	padding-top: 1%;
+	padding-bottom: 3%;
 	margin: 0;
 	clear: both;
 	margin-top: 30px;
-	height:25%;
+	min-height: 25%;
 	border-image: url(../img/mani_brush-border-purple.svg) 22 29 stretch;
 	border-image-width: 28px;
 	border-image-outset: 28px;
@@ -76,10 +76,15 @@ footer div > p {
 	color: #e1bfd9;
 }
 
+	footer h3 {
+			color: #e1bfd9;
+			margin-bottom: 0;
+		}
+
 nav > ul, nav > ul > li {
 	list-style-type: none;
 	list-style-position:inside;
-	display: inline-block !important;
+	display: inline-block;
 	padding: 0;
 	line-height: 2;
 	margin: 0;
@@ -226,6 +231,7 @@ li {
 #produktlista a:hover {
 	color: #564826;
 }
+
 @media (min-width : 0px) and (max-width : 568px) { 
 	/*	@media only screen and (min-device-width : 320px) and (max-device-width : 568px) { */
 		#logotyp {
@@ -243,6 +249,14 @@ li {
 			display: block;
 		}
 
+		nav ul, nav li {
+			list-style-type: none;
+			list-style-position:inside;
+			display: block;
+			padding: 0;
+			line-height: 3;
+			margin: 0;
+		}
 
 		.container {
 			width: auto;
@@ -259,12 +273,13 @@ li {
 			padding: 0;
 			margin: 0;
 			padding-top: 1%;
+			margin-top: 100px;
 			text-align: center;
 			font-size: 0.8em;
 			line-height: 1;
 			position: relative;
 			bottom:0;
-			height:20%px;
+			min-height: 40%;
 		}
 		#leaf {
 			width: 0px;
@@ -285,13 +300,9 @@ li {
 			clear: both;
 		}
 
-		nav ul, nav li {
-			list-style-type: none;
-			list-style-position:inside;
-			display: block;
-			padding: 0;
-			line-height: 2;
-			margin: 0;
+		footer h3 {
+			color: #e1bfd9;
+			margin-bottom: 0;
 		}
 
 		li {
@@ -299,7 +310,6 @@ li {
 			padding: 0px 0px;
 			margin-left: 0px;
 			font-size: 1.5em;
-			display: block;
 		}
 
 		nav a {
@@ -373,13 +383,6 @@ li {
 			border-image-outset: 10px;
 			border-left: 0;
 			border-right: 0;
-		}
-
-		button {
-			width: 260px;
-			height: 80px;
-			font-size: 2em;
-			float: left;
 		}
 
 		.footerd {
