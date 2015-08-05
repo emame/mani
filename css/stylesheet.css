@@ -69,11 +69,23 @@ footer {
 	bottom:0;
 }
 
-footer div > p {
+footer > div > p {
 	margin-bottom: 10px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	color: #e1bfd9;
+
+}
+footer > div > a {
+	text-decoration: none;
+}
+
+footer > div > a > p {
+	margin-bottom: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #e1bfd9;
+	float: right;
 }
 
 	footer h3 {
@@ -177,6 +189,9 @@ li {
 .imgcenter {
 	margin-top: 30px;
 }
+.imglarge {
+	width: 100%;
+}
 
 #leaf {
 	background-image: url("../img/mani_blad.png");
@@ -214,7 +229,9 @@ li {
 	float: right;
 	margin-right: 20%;
 	position: relative;
-	top: 35%;
+	margin-top: 10%;
+	display:flex;
+	align-items:flex-end;
 }
 
 #produktlista {
@@ -279,7 +296,7 @@ li {
 			line-height: 1;
 			position: relative;
 			bottom:0;
-			min-height: 40%;
+			min-height: 50%;
 		}
 		#leaf {
 			width: 0px;
@@ -303,6 +320,7 @@ li {
 		footer h3 {
 			color: #e1bfd9;
 			margin-bottom: 0;
+			text-align: center;
 		}
 
 		li {
@@ -352,12 +370,23 @@ li {
 
 		a {
 			font-size: 1.8em;
+			text-decoration: none;
 		}
+		a > p {
+			font-size: 1em;
+			text-decoration: none;
+			float: right;
+		}
+
+		p > a {font-size: 1em}
 
 		a:hover {
 			font-size: 1.8em;
 		}
 
+		p > a:hover {
+			font-size: 1.8em;
+		}
 		li > a {
 			width: 100%;
 			font-size: 1.8em;
@@ -397,9 +426,7 @@ li {
 			margin: auto;
 		}
 		.contentright {
-			margin-right: 0;
-			float: center;
-			top: 0%;
+			margin-top: 0%;
 		}
 	}
 
