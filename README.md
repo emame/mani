@@ -1,2 +1,2 @@
 # MaNi
-Webpage for MaNi inspiration.
+Webpage for MaNi inspiration. http://www.maniinspiration.se/
